@@ -5,21 +5,30 @@
  <title>情報学特講課題</title>
  <link rel="stylesheet" href="my.css"> <!-- この行を追加 -->
  <!--<script src="myjs.js"></script>-->
-<script src="ex6-1.js"></script>
+<script src="ex1-1.js"></script>
+<script src="ex6-3.js"></script>
+<script src="ex6-4.js"></script>
 <!--この行を追加-->
 </head>
 <body>
 <br>    
-<h1>名前 生年月日</h1>
+<h1>期末課題</h1>
 <br>
 <h1>石田優　6月8日</h1>
 
 <br>
 <h1>好きな靴</h1>
 <input type="button"  value="画像の変更" onclick="imgchange1();">
-<img src='./image/thumb_main_sakurazaka46.jpg' id="logo" alt="Logo"class="imagechange">
+<img src='./image/qebbe6yb2crumsanfyu4.webp' id="logo" alt="Logo"class="imagechange">
 
 <input type="button"  value="元に戻す" onclick="imgchange2();">
-<h1>あいさつ</h1>
+<br>
+<h1>名前入力</h1>
 <input type="button" value="あいさつ" onclick="sayhello71();">
   <p>誰？<input type="text" id="who71"></p>
+<br>
+<h1>好きな番組</h1>
+<form><input type="button" value="3秒で変更" 
+  onclick="timechange();setTimeout('returnimg()',3000);"></form>
+<br>
+<img src='./image/nogi_kouji.jpg' id="timechg" alt="Jikannkirikae" class="imagechange">
